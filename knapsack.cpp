@@ -1,3 +1,11 @@
+Let's say we have a knapsack with a maximum capacity of 10 kg and the following items:
+Item 1: Value = 60, Weight = 10
+Item 2: Value = 100, Weight = 20
+Item 3: Value = 120, Weight = 30
+The algorithm would tell us that the maximum value we can achieve is 220 by selecting items 1 and 3.
+That's it! The Knapsack algorithm efficiently finds the optimal combination of items to maximize value within a weight constraint, making it useful in various real-world scenarios like resource allocation, scheduling, and financial portfolio optimization
+
+    
 #include <iostream>
 #include <vector>
 #include <algorithm>
