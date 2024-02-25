@@ -1,3 +1,10 @@
+briefing: Let's say we have the text "hello world".
+We count the frequency of each character: h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1.
+We construct the Huffman tree with characters and their frequencies.
+We assign Huffman codes to each character based on the tree.
+We replace each character in the original text with its corresponding Huffman code.
+The compressed text might look something like "0101101101000111000110100011011"
+
 #include <iostream>
 #include <queue>
 #include <map>
