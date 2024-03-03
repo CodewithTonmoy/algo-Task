@@ -7,8 +7,7 @@ That's it! The Knapsack algorithm efficiently finds the optimal combination of i
 
     
 #include <iostream>
-#include <vector>
-#include <algorithm>
+
 
 using namespace std;
 
